@@ -10,7 +10,6 @@ const ingredients = [
 ];
 
 
-
 const ingredientsList = document.querySelector('#ingredients');
 
 ingredients.forEach(function (ingredient) {
@@ -19,7 +18,3 @@ ingredients.forEach(function (ingredient) {
   item.classList.add("item");
   ingredientsList.append(item);
 });
-
-
-
-
