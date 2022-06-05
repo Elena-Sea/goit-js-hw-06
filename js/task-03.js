@@ -16,12 +16,10 @@ const images = [
 ];
 
 const gallery = document.querySelector('.gallery');
-console.log(gallery);
 
 const layout = images
   .map((image) => `<li class="item-img"><img src="${image.url}" alt="${image.alt}" /></li>`)
   .join("");
 
-console.log(layout);
 
 gallery.insertAdjacentHTML("afterbegin", layout);
