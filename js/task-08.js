@@ -1,7 +1,6 @@
 'use strict';
 
 const form = document.querySelector('.login-form');
-console.log(form);
 
 let user = {
     email: '',
